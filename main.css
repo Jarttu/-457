@@ -1,0 +1,44 @@
+body{
+    background-color: #1e140a;
+    color: white;
+}
+#otsikko{
+    text-align: center;
+}
+.imageform{
+    text-align: center;
+    margin-top: 15%;
+}
+.kapykuva{
+    text-align: center;
+    width: 180px;
+    height: auto;
+}
+.kapykuva:active{
+    transform: scale(0.9);
+}
+#output{
+    display: flex;
+    align-items: center;
+}
+#output span{
+    font-size: 24px;
+}
+.kapykuva2{
+    width: 65px;
+    height: auto;
+}
+button{
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    border: solid 3px rgb(34, 58, 58);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(55, 83, 83);
+}
+button:disabled{
+    background-color: rgb(70, 70, 70);
+    border-color: rgb(46, 46, 46);
+}
